@@ -12,7 +12,7 @@ hpc$Sub_metering_2 <- as.numeric(hpc$Sub_metering_2)
 hpc$Sub_metering_3 <- as.numeric(hpc$Sub_metering_3)
 
 #develop plot
-plot(hpc$DateTime,hpc$Sub_metering_1, type = "l",ylab = "Global Active Power (kilowatts)", xlab = "")
+plot(hpc$DateTime,hpc$Sub_metering_1, type = "l",ylab = "Energy sub metering", xlab = "")
 lines(hpc$DateTime,hpc$Sub_metering_2,col = "red")
 lines(hpc$DateTime,hpc$Sub_metering_3,col = "blue")
 legend("topright",lty=1,col=c("black","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
