@@ -21,6 +21,9 @@ Place the scripts in the same directory as the dataset.
 Or set the current working directory as the directory of the dataset before running the scripts.
 
 *Run plot1.R to generate plot1.png
+
 *Run plot2.R to generate plot2.png
+
 *Run plot3.R to generate plot3.png
+
 *Run plot4.R to generate plot4.png
